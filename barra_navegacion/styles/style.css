@@ -1,0 +1,34 @@
+li{
+	display: inline;
+	background-color: lightgray;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: solid 1px black;
+}
+li:hover{
+	background-color: gray;
+}
+li a{
+	text-decoration: none;
+	color: black;
+}
+@media screen and (max-width: 1024px ) {
+#cuatro{
+	display: none;
+}
+@media screen and (max-width: 768px) {
+#cuatro{
+	display: none;
+}
+#tres{
+	display: none;
+}
+@media screen and (max-width: 480px) {
+#cuatro{
+	display: none;
+}
+#tres{
+	display: none;
+}
+#dos{
+	display: none;
